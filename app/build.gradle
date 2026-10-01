@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'id.banksampah.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'id.banksampah.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 11
+        versionName '11.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+}
